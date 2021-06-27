@@ -1,0 +1,47 @@
+<div class="container">
+
+<div class="somar">    
+    <label>Soma</label> <br>
+
+    <input type="text" #n1> <br>
+    <input type="text" #n2> <br>
+
+    <button (click)="Somar(n1.value, n2.value)">Somar</button> <br>
+
+    <label>Resultado: {{resultadoSoma}}</label> <br>
+</div>
+
+<div class="restar">
+    <label>Resta</label> <br>
+
+    <input type="text" #n3> <br>
+    <input type="text" #n4> <br>
+
+    <button (click)="Restar(n3.value, n4.value)">Restar</button> <br>
+
+    <label>Resultado: {{resultadoResta}}</label> <br>
+</div>
+
+<div class="multipliacar">
+    <label>Multiplicar</label> <br>
+
+    <input type="text" #n5> <br>
+    <input type="text" #n6> <br>
+
+    <button (click)="Multiplicar(n5.value, n6.value)">Multiplicar</button> <br>
+
+    <label>Resultado: {{resultadoMul}}</label> <br>
+</div>
+
+<div class="dividir">
+    <label>Dividir</label> <br>
+
+    <input type="text" #n7> <br>
+    <input type="text" #n8> <br>
+
+    <button (click)="Dividir(n7.value, n8.value)">Dividir</button> <br>
+
+    <label>Resultado: {{resultadoDiv}}</label> <br>
+</div>
+
+</div>
